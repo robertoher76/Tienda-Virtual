@@ -1,0 +1,66 @@
+.contenedor{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.contenedor .nombre{
+    margin-bottom: 3%;
+}
+
+.contenedor .nombre h2{
+    font-size: 40px;
+}
+
+.contenedor .caja{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.contenedor .caja .img{
+    width: 40%;
+    text-align: center;
+}
+
+.contenedor .caja .info{
+    width: 60%;
+    padding: 1%;
+}
+
+.contenedor .caja .img img{
+    width: 400px;
+}
+
+.contenedor .caja .info .precio{
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.contenedor .caja .info .stock{
+    padding: 1%;
+}
+
+.contenedor .caja .info .descripcion{
+    display: flex;
+}
+
+.contenedor .caja .info .descripcion h2{
+    margin: 1%;
+}
+
+.contenedor .caja .info .descripcion p{
+    padding: 2%;
+    text-align: justify;
+}
+
+.contenedor .caja .info .comprar{
+    padding: 1%;
+    text-align: right;
+}
+
+.contenedor .caja .info .comprar a{
+    padding: 2%;
+    border: 2px solid gray;
+    color: gray;
+}

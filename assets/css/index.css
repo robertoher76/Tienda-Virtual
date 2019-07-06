@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login, .registro{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.login h2, .registro h2{
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+
+.login form{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.login form .input{
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.login form .input p{
+    width: 408px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: -1%;
+}
+
+.login form .input input[type="text"]{
+    width: 400px;
+    height: 25px;
+    padding: 2px;
+}
+
+.login form .input input[type="password"]{
+    width: 400px;
+    height: 25px;
+    padding: 2px;
+}
+
+.login form input[type="submit"]{
+    width: 408px;
+    height: 40px;
+    background: darkcyan;
+    border: 2px solid darkcyan;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.login form input[type="submit"]:hover{
+    cursor: pointer;
+    border: 2px solid darkcyan;
+    background: transparent;
+    color: darkcyan;
+    transition: all 1s;
+}
+
+footer{
+    text-align: center;
+    position:relative;
+    
+    margin: auto;
+    bottom: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin: auto;
+    color: gray;
+    font-size: 13px;
+}
+
+footer hr{
+    width: 90%;
+    margin: auto;
+    color: gray;
+}
+
+/* Registro */
+
+.registro form{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registro form .bell{
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.registro form .bell p{
+    margin-bottom: -2%;
+}
+
+.registro form .bell input{
+    width: 80%;
+    height: 60%;
+}
+
+.registro form .bell select{
+    width: 80%;
+    height: 70%;
+}
+
+.registro form .za{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.registro form input[type="submit"]{
+    width: 408px;
+    height: 40px;
+    background: darkcyan;
+    border: 2px solid darkcyan;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.registro form input[type="submit"]:hover{
+    cursor: pointer;
+    border: 2px solid darkcyan;
+    background: transparent;
+    color: darkcyan;
+    transition: all 1s;
+}
