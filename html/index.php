@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Tienda Online</title>
-    <link rel="stylesheet" href="../Resources/css/index.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,7 +14,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa amet pariatur ipsam libero dolore reprehenderit quod mollitia tempore quas, ad, consequatur quae aliquid magni nam tempora enim eaque facere accusamus.</p>
         <br>
         <br>
-        <form action="" id="" method="post">
+        <form action="session.php" id="ingreso" method="post">
             <div class="input">
                 <p>Usuario</p>
                 <br>

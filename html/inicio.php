@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,7 +16,7 @@
     <div class="registro">
         <h2>Catálogo</h2>
         <br>
-        <h2>Bienvinod de nuevo, Andrea</h2>
+        <h2>Bienvino de nuevo, <?php echo $_SESSION['nombre']; ?></h2>
         <br> 
         <a href="catalogo.php">Catalogo</a>
         <br>
