@@ -10,11 +10,11 @@
 </head>
 <body>
 <div class="registro">
-        <h2>Catálogo</h2>
+        <h2 style="text-align:center;">Catálogo</h2>
         <br>
         <div class="caja">
             <div class="subcaja">
-                <img src="../img/camisa1.jpg">
+                <a href="catalogodecatalogo.php?id=1"><img src="../img/camisa1.jpg"></a>
                 <br>
                 <br>
                 <h3><a href="catalogodecatalogo.php?id=1">Camisas</a></h3>

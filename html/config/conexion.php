@@ -1,6 +1,6 @@
 <?php
 
-    require ("config.php");
+    require_once ("config.php");
 
     class Conexion{
 
@@ -17,6 +17,10 @@
             }
 
             $this->conexion_db->set_charset(DB_CHARSET);
+        }
+
+        public function cerrarConexion(){
+            $this->conexion_db->close();
         }
     }
 

@@ -19,22 +19,24 @@
 }
 
 .contenedor .caja .img{
-    width: 40%;
+    width: 30%;
     text-align: center;
 }
 
 .contenedor .caja .info{
-    width: 60%;
+    width: 70%;
     padding: 1%;
+    padding-left: 5%;
 }
 
 .contenedor .caja .img img{
-    width: 400px;
+    width: 100%;
 }
 
 .contenedor .caja .info .precio{
     padding: 1%;
     margin-top: 5%;
+    margin-bottom: 1%;
 }
 
 .contenedor .caja .info .stock{
@@ -43,6 +45,7 @@
 
 .contenedor .caja .info .descripcion{
     display: flex;
+    margin-bottom: 1%;
 }
 
 .contenedor .caja .info .descripcion h2{
@@ -50,8 +53,9 @@
 }
 
 .contenedor .caja .info .descripcion p{
-    padding: 2%;
+    padding: 1.9%;
     text-align: justify;
+    font-size: 20px;
 }
 
 .contenedor .caja .info .comprar{
@@ -63,4 +67,19 @@
     padding: 2%;
     border: 2px solid gray;
     color: gray;
+}
+
+.regresar{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.regresar a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
 }
